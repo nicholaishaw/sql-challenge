@@ -6,6 +6,7 @@
 --drop table titles;
 --drop table departments;
 
+--Tutor Sandhya Kumari assisted with the development of this code and the creation of the entity relationship diagram.
 CREATE TABLE departments (
     dept_no VARCHAR(10)   NOT NULL,
     dept_name VARCHAR(50)   NOT NULL,
@@ -60,6 +61,7 @@ CREATE TABLE salaries (
 );
 
 
+--Course instructor Richard Wanjohi and teaching assistant Andy Vicario assisted with troubleshooting the query code and gave the suggestion to add limits at the end of each query.
 SELECT employees.emp_no, employees.last_name, employees.first_name, employees.sex, salaries.salary
 FROM employees
 INNER JOIN salaries ON employees.emp_no = salaries.emp_no
