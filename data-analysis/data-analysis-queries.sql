@@ -1,6 +1,7 @@
 --Queries for data analysis
 
 --Retrieving the employee number, last name, first name, gender, and salary of each employee
+--Output saved as "all_employees.csv" in the 'data-analysis-output' folder
 SELECT e.emp_no as "Employee Number", e.last_name as "Last Name", e.first_name as "First Name", e.sex as "Gender", s.salary as "Salary"
 FROM employees as e
 	INNER JOIN salaries as s
@@ -10,6 +11,7 @@ ORDER BY e.last_name ASC, e.first_name ASC;
 
 
 --Retrieving the earliest 200 employees hired in 1986 including first names, last names, and hire dates
+--Output saved as "earliest_200_hire_dates.csv" in the 'data-analysis-output' folder
 SELECT first_name as "First Name", last_name as "Last Name", hire_date as "Hire Date"
 FROM employees
 WHERE EXTRACT(YEAR FROM hire_date::date) = 1986
@@ -18,6 +20,7 @@ LIMIT 200;
 
 
 --Retrieving the manager of each department with their first name, last name, employee number, department name, and department number
+--Output saved as "manager_departments.csv" in the 'data-analysis-output' folder
 SELECT e.first_name as "First Name", e.last_name as "Last Name", e.emp_no as "Employee Number", d.dept_name as "Department Name", dm.dept_no as "Department Number"
 FROM employees as e
 	INNER JOIN dept_manager as dm
@@ -29,6 +32,7 @@ ORDER BY d.dept_name ASC, e.last_name ASC, e.first_name ASC;
 
 
 --Retrieving the department numbers for each employee along with that employee’s employee number, first name, last name, and department name
+--Output saved as "dept_number_employees.csv" in the 'data-analysis-output' folder
 SELECT de.dept_no as "Department Number", e.emp_no as "Employee Number", e.first_name as "First Name", e.last_name as "Last Name", d.dept_name as "Department Name"
 FROM employees as e
 	INNER JOIN dept_emp as de
@@ -39,6 +43,7 @@ FROM employees as e
 
 
 --Retrieving first name, last name, and gender of each employee whose first name is Hercules and whose last name begins with the letter B
+--Output saved as "employees_name_begins_with_B.csv" in the 'data-analysis-output' folder
 SELECT first_name, last_name, sex
 FROM employees
 WHERE first_name IN ('Hercules')
@@ -46,6 +51,7 @@ AND LEFT(last_name, 1) = 'B';
 
 
 --Retrieving each employee in the Sales department, including their employee number, last name, and first name
+--Output saved as "sales_employees.csv" in the 'data-analysis-output' folder
 SELECT e.emp_no as "Employee Number", e.first_name as "First Name", e.last_name as "Last Name"
 FROM employees as e
 WHERE e.emp_no IN
@@ -63,6 +69,7 @@ ORDER BY e.last_name ASC, e.first_name ASC;
 
 
 --Retrieving each employee in the Sales and the Development departments—including their first name, last name, employee number, and department name
+--Output saved as "sales_and_development_employees.csv" in the 'data-analysis-output' folder
 SELECT e.first_name as "First Name", e.last_name as "Last Name", e.emp_no as "Employee Number", d.dept_name as "Department Name"
 FROM employees AS e
 	INNER JOIN dept_emp AS de 
@@ -73,6 +80,7 @@ FROM employees AS e
 
 
 --Retrieving the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name)
+--Output saved as "last_name_counts.csv" in the 'data-analysis-output' folder
 SELECT e.last_name as "Last Name", count(*) as "Frequency"
 FROM employees as e
 GROUP BY e.last_name
