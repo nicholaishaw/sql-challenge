@@ -5,7 +5,7 @@ At Pewlett Hackard (a fictional company), a research project was created to expl
 Data modeling focused on designing an entity-relationship diagram (ERD) using Quick DBD Diagrams (www.quickdatabasediagrams.com) to conceptualize the database structure. It established relationships between the employee, salary, title, manager, and department tables to depict how different the entities were interconnected. The entity-relationship diagram is stored in the 'entity-relationship-diagram' folder.
 
 ## Data Engineering:
-After data modeling, tables were created in a SQL database based on the ERD. This involved creating the table schemas, data types, and identifying the primary and foreign keys. The six CSV files containing employee data from the 1980s and 1990s were imported into the respective tables. Schemas for the data engineering are stored in the 'sql-schema' folder.
+After data modeling, tables were created in a SQL database based on the ERD. This involved creating the table schemas, data types, and identifying the primary and foreign keys. The six CSV files containing employee data from the 1980s and 1990s were imported into the respective tables. The schema for the table creations are stored in the 'sql-schema' folder.
 
 ## Data Analysis (Executing Queries):
 After table creation and data importing, SQL queries were crafted to extract meaningful insights from the organized database. Listed below are the insights that needed to be retrieved from the SQL database:
