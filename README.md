@@ -8,7 +8,18 @@ Data modeling focused on designing an entity-relationship diagram (ERD) to conce
 After data modeling, tables were created in a SQL database based on the ERD. This involved creating the table schemas, data types, and identifying the primary and foreign keys. The six CSV files containing employee data from the 1980s and 1990s were imported into the respective tables. Schemas for the data engineering are stored in the 'sql-schema' folder.
 
 ## Data Analysis (Executing Queries):
-After table creation and data importing, SQL queries were crafted to extract meaningful insights from the organized database. Queries were designed to retrieve specific information, including employee names, salaries, frequency of names, first 200 employees hired, all employees in certain departments, list of department managers with their employee number, and other relevant analyses of the historical employee data. Syntax for the queries are stored in the 'data-analysis' folder. Outputs for all of these queries are contained in CSV files in the 'data-analysis-output' folder in the 'data-analysis' folder.
+After table creation and data importing, SQL queries were crafted to extract meaningful insights from the organized database. Listed below are the insights that needed to be retrieved from the SQL database:
+
+*Retrieve the employee number, last name, first name, sex, and salary of each employee.
+*Retrieve the first name, last name, and hire date for the employees who were hired in 1986.
+*Retrieve the manager of each department along with their department number, department name, employee number, last name, and first name.
+*Retrieve the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+*Retrieve first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+*Retrieve each employee in the Sales department, including their employee number, last name, and first name.
+*Retrieve each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+*Retrieve the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+
+Outputs for all of these queries are contained in CSV files in the 'data-analysis-output' folder in the 'data-analysis' folder.
 
 
 
