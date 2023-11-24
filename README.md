@@ -24,7 +24,6 @@ After table creation and data importing, SQL queries were crafted to extract mea
 
 Syntax for the SQL queries are located in the data-analysis folder. Outputs of these queries are contained in CSV files in the 'data-analysis-output' folder in the 'data-analysis' folder.
 
+![image](https://github.com/nicholaishaw/sql-challenge/assets/135463220/b551fb7b-310a-4364-aef1-17f47bd0fd86)
 
-
-
-
+**Figure 2.** A sample SQL query retrieving employee information of those in the Sales and Development departments
