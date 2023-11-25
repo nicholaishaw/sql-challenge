@@ -11,6 +11,7 @@ Data modeling focused on designing an entity-relationship diagram (ERD) using Qu
 After data modeling, tables were created in a SQL database based on the ERD. This involved creating the table schemas, data types, and identifying the primary and foreign keys. The six CSV files containing employee data from the 1980s and 1990s were imported into the respective tables. The schema for the table creations are stored in the 'sql-schema' folder.
 
 ![image](https://github.com/nicholaishaw/sql-challenge/assets/135463220/9deec272-4811-471f-b5d5-5ff2c2227fec)
+
 **Figure 2.** *Schema of the database. Primary key and foreign key declarations are written at the end of the schema.*
 
 ## Data Analysis (Executing Queries):
