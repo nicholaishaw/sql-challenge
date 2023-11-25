@@ -8,7 +8,7 @@ Data modeling focused on designing an entity-relationship diagram (ERD) using Qu
 **Figure 1.** *Entity-relationship diagram illustrating the relationships between SQL tables.*
 
 ## Data Engineering:
-After data modeling, we created the SQL database. This process involved identifying tthe data types of each column as well as the primary and foreign keys, designing the schema, and loading the csv files into their respective tables. An excerpt of the database schema is shown below in figure 2. The full schema is stored in the 'sql-schema' folder.
+After data modeling, we created the SQL database. This process involved identifying the data types of each column and the primary and foreign keys, designing the schema, and loading the csv files into their respective tables. An excerpt of the database schema is shown below in figure 2. The full schema is stored in the 'sql-schema' folder.
 
 ![image](https://github.com/nicholaishaw/sql-challenge/assets/135463220/9deec272-4811-471f-b5d5-5ff2c2227fec)
 
