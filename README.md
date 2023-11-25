@@ -8,7 +8,7 @@ Data modeling focused on designing an entity-relationship diagram (ERD) using Qu
 **Figure 1.** *Entity-relationship diagram illustrating the relationships between SQL tables.*
 
 ## Data Engineering:
-After data modeling, tables were created in a SQL database based on the ERD. This involved creating the table schemas, data types, and identifying the primary and foreign keys. The six CSV files containing employee data from the 1980s and 1990s were imported into the respective tables. The schema for the table creations are stored in the 'sql-schema' folder.
+After data modeling, tables were created in a SQL database based on the ERD. This involved creating the table schemas, data types, and identifying the primary and foreign keys. The six CSV files containing employee data from the 1980s and 1990s were imported into the respective tables. The schema for the table creations is stored in the 'sql-schema' folder.
 
 ![image](https://github.com/nicholaishaw/sql-challenge/assets/135463220/9deec272-4811-471f-b5d5-5ff2c2227fec)
 
@@ -26,7 +26,7 @@ After table creation and data importing, SQL queries were crafted to extract mea
 * Retrieve each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 * Retrieve the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
-Syntax for the SQL queries are located in the data-analysis folder. Outputs of these queries are contained in CSV files in the 'data-analysis-output' folder in the 'data-analysis' folder.
+Syntax for the SQL queries are located in the 'data-analysis' folder in the main branch of this repository. Outputs of these queries are contained in CSV files in the 'data-analysis-output' folder in the 'data-analysis' folder.
 
 ![image](https://github.com/nicholaishaw/sql-challenge/assets/135463220/b551fb7b-310a-4364-aef1-17f47bd0fd86)
 
