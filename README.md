@@ -12,7 +12,7 @@ After data modeling, tables were created in a SQL database based on the ERD. Thi
 
 ![image](https://github.com/nicholaishaw/sql-challenge/assets/135463220/9deec272-4811-471f-b5d5-5ff2c2227fec)
 
-**Figure 2.** *Overview of the schema of the database. Primary key and foreign key declarations are included at the end of the schema document but are not included in this image due to size constraints.*
+**Figure 2.** *Overview of the schema of the database. Primary key and foreign key declarations are included at the end of the schema file but are not included in this image due to size constraints.*
 
 ## Data Analysis (Executing Queries):
 After table creation and data importing, SQL queries were crafted to extract meaningful insights from the organized database. Listed below are the insights that needed to be retrieved from the SQL database:
