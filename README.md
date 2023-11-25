@@ -15,7 +15,7 @@ After data modeling, we created the SQL database. This process involved identify
 **Figure 2.** *Overview of the schema of the database. Primary key and foreign key declarations are included at the end of the schema file but are not included in this image due to size constraints.*
 
 ## Data Analysis (Executing Queries):
-After table creation and data importing, we crafted SQL queries to extract meaningful insights from the organized database. Listed below are the insights that we retrieved from the SQL database:
+After table creation and data importing, we crafted SQL queries to extract meaningful insights from the organized database. Listed below are the insights that needed to be fetched from the SQL database:
 
 * Retrieve the employee number, last name, first name, gender, and salary of each employee.
 * Retrieve the first name, last name, and hire date for the employees who were hired in 1986.
