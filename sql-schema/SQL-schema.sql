@@ -1,5 +1,3 @@
--- Schema was provided by Quick DBD diagrams (www.quickdatabasediagrams.com)
-
 -- Creating tables to house the data in each csv file
 CREATE TABLE departments (
     dept_no VARCHAR(10)   NOT NULL,
