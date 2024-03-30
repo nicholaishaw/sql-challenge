@@ -1,21 +1,21 @@
 # Data Analysis Using SQL
-At Pewlett Hackard (a fictional company), we were tasked with completing a research project to explore the historical employee data from the 1980s and 1990s using PostgreSQL. The project involved three primary phases: data modeling, data engineering, and data analysis. The data source for this project was comprised of six csv files containing department numbers, employee information, salaries, titles, employee departments, and department managers (stored in 'starter-csv-files'). We created a SQL database with six tables to accommodate the data source. After database creation, data were loaded into the SQL database for analysis. The project aimed to construct SQL database, build a schema for the tables, load the CSV files into the database, design a relationship diagram to visualize the relationships between tables, and extract valuable insights (queries) from the employee dataset using SQL queries.
+At Pewlett Hackard (a fictional company), I was tasked with completing a research project to explore the historical employee data from the 1980s and 1990s using PostgreSQL. The project involved three primary phases: data modeling, data engineering, and data analysis. The data source for this project was comprised of six csv files containing department numbers, employee information, salaries, titles, employee departments, and department managers (stored in 'starter-csv-files'). I created a SQL database with six tables to accommodate the data source. After database creation, data were loaded into the SQL database for analysis. The project aimed to construct SQL database, build a schema for the tables, load the CSV files into the database, design a relationship diagram to visualize the relationships between tables, and extract valuable insights (queries) from the employee dataset using SQL queries.
 
 ## Data Modeling: 
-Data modeling focused on designing an entity-relationship diagram (ERD) using Quick DBD Diagrams (www.quickdatabasediagrams.com) to conceptualize the database structure. We made a diagram to establish the relationships between the employee, salary, title, manager, and department tables and depict how different the entities were interconnected.
+Data modeling focused on designing an entity-relationship diagram (ERD) using Quick DBD Diagrams (www.quickdatabasediagrams.com) to conceptualize the database structure. I made a diagram to establish the relationships between the employee, salary, title, manager, and department tables and depict how different the entities were interconnected.
 
 ![image](https://github.com/nicholaishaw/sql-challenge/assets/135463220/b09e3011-c7b1-4faa-84e8-36ee54d1461d)
 **Figure 1.** *Entity-relationship diagram illustrating the relationships between SQL tables.*
 
 ## Data Engineering:
-After data modeling, we created the SQL database. This process involved identifying the data types of each column and the primary and foreign keys, designing the schema, and loading the csv files into their respective tables. An excerpt of the database schema is shown below in figure 2. The full schema is stored in the 'sql-schema' folder.
+After data modeling, I created the SQL database. This process involved identifying the data types of each column and the primary and foreign keys, designing the schema, and loading the csv files into their respective tables. An excerpt of the database schema is shown below in figure 2. The full schema is stored in the 'sql-schema' folder.
 
 ![image](https://github.com/nicholaishaw/sql-challenge/assets/135463220/9deec272-4811-471f-b5d5-5ff2c2227fec)
 
 **Figure 2.** *Overview of the schema of the database. Primary key and foreign key declarations are included at the end of the schema file but are not included in this image due to size constraints.*
 
 ## Data Analysis (Executing Queries):
-After table creation and data importing, we crafted SQL queries to extract meaningful insights from the organized database. Listed below are the insights that needed to be fetched from the SQL database:
+After table creation and data importing, I crafted SQL queries to extract meaningful insights from the organized database. Listed below are the insights that needed to be fetched from the SQL database:
 
 * Retrieve the employee number, last name, first name, gender, and salary of each employee.
 * Retrieve the first name, last name, and hire date for the employees who were hired in 1986.
